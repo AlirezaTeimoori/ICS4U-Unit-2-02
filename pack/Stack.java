@@ -24,20 +24,24 @@ class Stack { // Create class
 
         // Add user input to the end of the arrayList
         myStack.add(number);
+        // Output information
         System.out.println(number + " is now added to the stack.");
     }
 
     // The function used to call and remove an element from the stack
     public int pop() {
 
+        // Remove the last element 
         int last = myStack.get(myStack.size()-1);
         myStack.remove(myStack.size()-1);
+        // Output information
         System.out.println(last + " is now removed from the stack.");
 
         
-        return last;
+        return last; // returns the last element which is now removed
     }
 
+    // Print the Stack in a nice way:
     public String toString() {
     	
         String output = "";

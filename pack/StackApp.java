@@ -25,6 +25,7 @@ class StackApp { // Create class
         stack.push(1);
         stack.push(6);
 
+        // Remove and return the last element using pop function
         stack.pop();
 
         // Print stack
